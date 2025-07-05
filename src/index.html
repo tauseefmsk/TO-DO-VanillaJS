@@ -3,11 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To-Do App - Manage Your Tasks</title>
 </head>
 <body>
     <header>
-        <h1>To-Do app</h1>
+        <h1>To-Do App</h1>
     </header>
+
+    <main>
+        <section>
+            <form id="todo-form">
+                <label for="todo-input">Add a New Task</label>
+                <input type="text" id="todo-input" placeholder="Add a new task" required>
+                <button type="submit">Add Task</button>
+            </form>
+        </section>
+        <section aria-labelledby="tasks-heading">
+            <h2>My Tasks</h2>
+            <ul>
+                <li>
+                    <input type="checkbox"></input>
+                    <label for="task1">Buy Groceries</label>
+                </li>
+                <li>
+                    <input type="checkbox"></input>
+                    <label for="task2">Buy Groceries 2</label>
+                </li>
+                <li>
+                    <input type="checkbox"></input>
+                    <label for="task3">Buy Groceries 3</label>
+                </li>
+            </ul>
+        </section>
+    </main>
 </body>
 </html>

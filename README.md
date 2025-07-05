@@ -34,7 +34,11 @@ A simple and clean to-do list application built with **HTML**, **CSS**, and **va
 ```
 - All tasks are stored in an array, which is saved in localStorage.
 
+
+
 ## Screenshots
+Refer ../docs/diagram.drawio.svg
+
 
 ## Future Improvements
 
